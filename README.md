@@ -1,64 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="./logo.png" alt="Attendance Logo" />
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h1>
+سیستم احرازهویت    
+</h1>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+لاگین با ایمیل و پسورد
+لاگین با اثر انگشت
 
-## Learning Laravel
+بر اساس هر نوع کاربری بعد از ثبت نام در پنل مدیر کل بررسی می شود و پس از تایید کاربر می تواند وارد حساب کاربری خود شود.
+اثر انگشت فقط از طریق دستگاه های تلفن و تبلت انجام می شود.
+پس از لاگین شدن قبل از ورود به پنل چک می شود که حساب کاربر تایید شده و چه نوع حسابی دارد و بر اساس آن وارد پنل خود می شود و دسترسی های مختلفی دارد.(پنل های کارکنان، اساتید، دانشجویان متفاوت خواهد بود اما در داخل اپلیکیشن ری اکت یک اپلیکیشن هستند با ورودی های متفاوت)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+اساتید:
+اساتید با ورود به پنل با لیستی از درس های اخذ شده برای تدریس خود مشاهده می کنند که با کلیک بر روی هر درس لیست جلسات هر درس را مشاهده می نماید و با کلیک بر روی هر جلسه لیست حضور و غیاب آن جلسه برایش ظاهر می شود که امکان گذاشتن حضور یا غیبت برای هر دانشجو را دارد و در صورت اشتباه آن را ویرایش نماید.
+دسترسی ها:
+مشاهده درس های اخذ شده
+مشاهده و بررسی جلسات هر درس و تاریخ آنها
+مشاهده لیست حضور و غیاب هر جلسه برای هر درس
+ویرایش و حضور و غیبت برای هر دانشجو در لیست
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+مسئولین:
+مسئولین دارای پنل با چند منو می باشند، آن ها می توانند لیستی از کاربران با فیلتر اساتید و دانشجویان را داشته باشند که فقط دسترسی مشاهده به آنها داده شده است.
+پنل آنها علاوه بر آیتم منوی لیست کاربران آیتم واحد های درسی را نیز دارد که می توانند برای هر درس اساتیدی تعیین کنند و برای هر استاد لیستی از دانشجویان به همراه تعداد جلسات و تاریخ آن درس را تنظیم و تعیین کنند.
+دسترسی ها:
+افزودن، حذف و ویرایش واحد درسی
+افزودن، حذف و ویرایش اساتید برای هر درس
+افزودن، حذف و ویرایش دانشجویان برای کلاس استاد هر درس
+مشاهده لیست حضور و غیاب
 
-## Security Vulnerabilities
+مدیر کل:
+ادمین اصلی یا مدیرکل اپلیکیشن توانایی کنترل و حذف دانشجویان، مسئولین و اساتید را دارد و لیستی از آنها به عنوان منو کاربران را در اختیار دارد، همچنین لیستی از اطلاعات واحد های درسی و اساتید تعیین شده و جلسات آن ها را با جزئیات دارد اما امکان ویرایش و دستکاری اطلاعات وارد شده توسط مسئولین و اساتید را ندارد.
+دسترسی ها:
+امکان اضافه، حذف و ویرایش دانشجویان، مسئولین و اساتید
+مشاهده اطلاعات موجود در سامانه مربوط به واحد های درسی و حضور و غیاب
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+دانشجویان:
+امکان مشاهده واحد های درسی اخذ شده و جلسات حاضر شده در کلاس و بررسی وضعیت خود را دارند.
+دسترسی ها:
+مشاهده و بررسی جلسات و واحد های درسی اخذ شده
+
+جزئیات ساختار اطلاعات:
+
+دانشجو: نام، ایمیل، واحد های درسی اخذ شده، وضعیت کاربر، نوع کاربر
+استاد: نام، ایمیل، واحد های درسی اخذ شده، وضعیت کاربر، نوع کاربر
+مسئولین: نام، ایمیل، وضعیت کاربر، نوع کاربر
+مدیر کل: نام، ایمیل
+واحد درسی: اسم واحد، استاد یا اساتید مربوطه، لیست جلسات
+جلسه واحد درسی: اسم و تاریخ جلسه، لیست دانش آموزان(برای اساتید) و لیست و وضعیت حضور و غیاب
+کاربر: نام، ایمیل، تاریخ عضویت، نوع کاربری، جزئیات اطلاعات (برای دانشجویان و اساتید)
+
+
